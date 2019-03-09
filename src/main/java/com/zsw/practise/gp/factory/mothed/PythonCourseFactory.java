@@ -1,7 +1,7 @@
 package com.zsw.practise.gp.factory.mothed;
 
-import com.zsw.practise.gp.factory.ICourse;
-import com.zsw.practise.gp.factory.PythonCourse;
+import com.zsw.practise.gp.factory.simple.ICourse;
+import com.zsw.practise.gp.factory.simple.PythonCourse;
 
 /**
  * Java工厂

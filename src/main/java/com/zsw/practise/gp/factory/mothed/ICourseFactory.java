@@ -1,6 +1,6 @@
 package com.zsw.practise.gp.factory.mothed;
 
-import com.zsw.practise.gp.factory.ICourse;
+import com.zsw.practise.gp.factory.simple.ICourse;
 
 /**
  * 工厂方法模式

@@ -1,7 +1,5 @@
 package com.zsw.practise.gp.factory.simple;
 
-import com.zsw.practise.gp.factory.ICourse;
-
 /**
  * 简单工厂模式
  * 简单工厂模式（Simple Factory Pattern）是指由一个工厂对象决定创建出哪一种产品

@@ -7,6 +7,9 @@ import com.zsw.practise.gp.factory.mothed.ICourseFactory;
 import com.zsw.practise.gp.factory.mothed.JavaCourseFactory;
 import com.zsw.practise.gp.factory.mothed.PythonCourseFactory;
 import com.zsw.practise.gp.factory.simple.CourseSimpleFactory;
+import com.zsw.practise.gp.factory.simple.ICourse;
+import com.zsw.practise.gp.factory.simple.JavaCourse;
+import com.zsw.practise.gp.factory.simple.PythonCourse;
 import org.junit.Test;
 
 /**
@@ -41,15 +44,11 @@ public class FactoryTest {
     @Test
     public void abstracFactoryTest(){
         CourseAbstractFactory factory = new com.zsw.practise.gp.factory.abstractfactory.JavaCourseFactory();
-        INote note = factory.createNote();
-        note.edit();
-        IVideo video = factory.createVideo();
-        video.record();
+        factory.createNote().edit();
+        factory.createVideo().record();
 
         factory = new com.zsw.practise.gp.factory.abstractfactory.PythonCourseFactory();
-        note = factory.createNote();
-        note.edit();
-        video = factory.createVideo();
-        video.record();
+        factory.createNote().edit();
+        factory.createVideo().record();
     }
 }

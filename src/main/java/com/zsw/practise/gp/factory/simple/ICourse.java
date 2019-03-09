@@ -1,4 +1,4 @@
-package com.zsw.practise.gp.factory;
+package com.zsw.practise.gp.factory.simple;
 
 /**
  * @author zheng.shaowei
