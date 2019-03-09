@@ -2,8 +2,6 @@ package com.zsw.practise.gp.factory.db_pool;
 
 import org.junit.Test;
 
-import java.io.InputStream;
-import java.net.URL;
 import java.sql.Connection;
 
 /**
@@ -12,6 +10,7 @@ import java.sql.Connection;
  **/
 public class ConnectionPoolTest {
 
+    //TODO 继续完成测试
     @Test
     public void getPoolTest(){
         DBConnectionPool connectionPool = DBConnectionPool.getInstance();
